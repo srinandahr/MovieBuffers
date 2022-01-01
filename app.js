@@ -8,7 +8,7 @@ function sendRequest() {
     try {
         var counter = 0;
         //API Call with the searched query
-        let films = fetch("http://www.omdbapi.com/?s=" + searchQuery + "&apikey=e9d1f6a4").then(response => {
+        let films = fetch("http://www.omdbapi.com/?s=" + searchQuery + "&apikey=yourAPIKey").then(response => {
             return response.json();
         }).then(film => {
             try {
