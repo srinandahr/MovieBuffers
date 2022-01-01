@@ -1,0 +1,116 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sora', sans-serif;   
+}
+.nav{
+    display: flex;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-size: large;
+}
+.search-area{
+    margin-right: 175px;
+}
+.search{
+    font-size: large;
+    margin-right: 10px;
+}
+.submit-button{
+    font-size: medium;
+    border: none;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.film-box{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.filmbox2{
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 600px;
+    width: 350px;
+    margin: 20px;
+}
+.filmPosterHolder{
+    padding: 20px;
+}
+img{
+    height: 400px;
+    width: 300px;
+}
+.filmNameHolder{
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+.filmTitle{
+    font-size: large;
+}
+.yearHolder{
+    align-items: center;
+    padding-bottom: 25px;
+    color: white;
+    text-align: center;
+}
+.filmYear{
+    font-size: medium;
+}
+.seeMoreButtonHolder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seeMoreButton{
+    font-size: medium;
+    border: none;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.error-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.error{
+    font-size: larger;
+}
+
+
+@media (max-width: 691px) {
+    h2{
+        font-size: medium;
+    }
+    .search-area{
+        margin-right: 10px;
+    }
+    .search{
+        font-size: small;
+        margin-right: 10px;
+    }
+    .submit-button{
+        font-size: small;
+        border: none;
+        padding: 5px;
+        background-color: gold;
+        color: black;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    
+}
